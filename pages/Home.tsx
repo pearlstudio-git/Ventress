@@ -3,14 +3,14 @@ import { Play, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
-  const logoUrl = "/images/logo.png";
+  const logoUrl = "https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Ventress%20emblem.png";
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <header className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden pb-32 md:pb-48">
         <img 
-          src="/images/home-hero.jpg" 
+          src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Home%20page%20background.jpg" 
           alt="photo" 
           width="6000" 
           height="3368" 
