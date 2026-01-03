@@ -225,7 +225,7 @@ const Contact: React.FC = () => {
         <img 
           alt="Abstract dark forest texture" 
           className="w-full h-full object-cover grayscale brightness-[0.4] contrast-125 mix-blend-overlay" 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuANYm5IP1Ak4JKISLL6qSjHbB-ozGyBWtwZZG47Jl13A4sUgropGHnUSMtp4CoP4qpzG5g8A14h1obKCcJgRHwOBPxKeEft6TjfCATelS55BN_e_zh8f4H5Shz-jyNogkGlvvCGl3Y8RuCpK8BO_UIl-0Owva4GUfpjdv9CtkpB41vsoANXwvsrUUvgoqLGWIZr8B_AqBuNsVV4ZuCmvbzcJCJnTTY2ZtcxnOZ13EWLSCERx8M89t6doYcqzGluPwIXMHgSkci00j8"
+          src="/images/contact-bg.jpg"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background-dark via-transparent to-background-dark"></div>
       </div>

@@ -17,7 +17,7 @@ const About: React.FC = () => {
         <div className="absolute top-0 right-0 w-full h-full opacity-20 pointer-events-none z-0">
           <div 
             className="w-full h-full bg-cover bg-center mix-blend-overlay grayscale" 
-            style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBtKp5IHP5DLeZD0zWO_R_aF5fznmPfHcc6W7CS4C1wgJZCJXlp0Ul7G5Yt5-DlBhblnTiYDR5lq_7YDaU70CSJ0wthv6dp9N61LM0yQti4BJ_s-29Kt7Iua-T8Kek9DEzgl7t9jqn2mMq3zVuZibgHddh6cgKV9GTkIHg1LZ-AAmqMLrJBTLgcdV4zmWXvVBRF7G_l4oyO1FZWE6AgXmL1Ivj2c2HBfeTGePlb05K8UevDgn7-4JkO2qG0Fi8_SdcMba74cJVxVXc")' }}
+            style={{ backgroundImage: 'url("/images/about-hero.jpg")' }}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-b from-background-dark via-transparent to-background-dark"></div>
         </div>
@@ -67,7 +67,7 @@ const About: React.FC = () => {
               <img 
                 alt="Atmospheric forest setting" 
                 className="w-full h-full object-cover transform scale-105 group-hover:scale-100 transition-transform duration-1000" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEo4Al_bufPPGNNipRoAhG20fAxdWxp5z4oypue-qwBuOGf0XjcPEfVH5kMdKlwhon3e5e5VllNqiY1vEaXPeKN05Bh46zJw2uS021vxWzNubVtuQzUv9qAtPC0AQOxsCzgizvwDTdureNwMIB-DrPGy4p2Us4DkfUJtk3x4GhoUoyDqp6mxZxrZn522T7uOaMrybpMs9vHz11FdjwPtRnHWmxD_7wTRDNZMRTDInot_NsCHxVdCFR3g7FHZPJHZQKRRHWNtl8hmA"
+                src="/images/about-content.jpg"
               />
             </div>
           </div>

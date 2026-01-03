@@ -42,7 +42,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-[1440px] mx-auto px-6 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="https://img.sanishtech.com/u/a382cc903269a0b199f391452d498374.png" 
+              src="/images/logo.png" 
               alt="Ventress Logo" 
               className="h-20 md:h-24 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity" 
             />

@@ -3,14 +3,14 @@ import { Play, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
-  const logoUrl = "https://img.sanishtech.com/u/cfc8f5772aae03985dd7d64873e78fd6.png";
+  const logoUrl = "/images/logo.png";
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <header className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden pb-32 md:pb-48">
         <img 
-          src="https://img.sanishtech.com/u/a469ba0e86051bcf97f3ae7828d9b3da.jpg" 
+          src="/images/home-hero.jpg" 
           alt="photo" 
           width="6000" 
           height="3368" 
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
           <div className="relative mb-12 w-full max-w-[500px] aspect-square group">
              <div className="absolute inset-0 bg-primary/10 blur-3xl rounded-full opacity-20 group-hover:opacity-40 transition-opacity duration-700"></div>
              <img 
-               src="https://img.sanishtech.com/u/8fd4911f921dcb360e93fe4cf7aadb50.png" 
+               src="/images/reminiscence-cover.png" 
                alt="Reminiscence EP Cover" 
                width="1272" 
                height="1280" 
@@ -162,7 +162,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="https://img.sanishtech.com/u/a2d04b42f6003673945c84dd793753af.png"
+                src="/images/gallery-1.png"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 3" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="https://img.sanishtech.com/u/a322a7aaf56ef324eecfc6d583cd9317.png"
+                src="/images/gallery-2.png"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -178,7 +178,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 4" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="https://img.sanishtech.com/u/77a5fe4ee5f1c69f9a92e2e6c62f21e9.png"
+                src="/images/gallery-3.png"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -186,7 +186,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 5" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="https://img.sanishtech.com/u/22d96070bea4e0e682b11fba22019a2d.png"
+                src="/images/gallery-4.png"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>

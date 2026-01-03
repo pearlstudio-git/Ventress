@@ -8,7 +8,7 @@ const releases: Release[] = [
     title: 'Void Chant',
     year: '2023',
     type: 'Album',
-    coverUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDGTbDybzwcSWXZIbvS1hQdGSuIpyOzT4fjO22wadL10Y6MFFnqh_bL0uuUfBZPZgzx4N3gjAShOBg6hcWWJuGPGZez9uI9eq2nVAyiQvucQ_CgBdSVEZMMcMyPSnjmTKteK2EiBxrwnLmBQ52yML8eJYgVZa2rruuabmiLwwRZmNJijR4V4NVqXJuFxuF3STHP0j8rEx7USRzNOn19ujq0YA7ol0kGr5DDbQ1ATPaEHu4Ei1FuQ-gjKDHAsOJZjCOaRreFJtaG0FI',
+    coverUrl: '/images/cover-void-chant.jpg',
     spotifyUrl: '#',
     bandcampUrl: '#',
     appleUrl: '#',
@@ -25,7 +25,7 @@ const releases: Release[] = [
     title: 'Swamp Ritual',
     year: '2022',
     type: 'EP',
-    coverUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDogJhu_uNxIVUAKxJkoV3rvC6km77CMz7MS4ec_jPZxiVzQqYbwvImQcI77avwV06t7kqgsHR0Nxao3zhniDkC_5RPL6ALpA7voHc8P_vScqBOXDxwJZkRayYxe0Jsl7iWQnCHdLNVG6eVNL3NgJOecWfR-wDlirAwaminhs6bpwdYq3naElgct3M3uVVTU4-IQ69Tu8lcA1v8TLBosG4WE-xs8-mTundhFGA3qkENrUDXvyAjkS4HoRzQNHdCehOxHLeY9dsbk_A',
+    coverUrl: '/images/cover-swamp-ritual.jpg',
     spotifyUrl: '#',
     bandcampUrl: '#',
     credits: 'Recorded live in the deep woods. Cover art by: Unknown Entity',
@@ -40,7 +40,7 @@ const releases: Release[] = [
     title: 'Bone Dance',
     year: '2021',
     type: 'Single',
-    coverUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA3ZkufrEZlRPrY7L58XpwrdxI3QWk6S-Og1XM5zzGOHAEAMb7LXIc153AuBC69SxvfdgKhvUQoaEu6l_XIGzmYjcsB5l6ekZ2s1ZS6AQ3tpI3yGKRKB9tpspVTekTvz-sBkO1Kq8qO35bqw9eOxz_DolNcDZInZU7MvfYex5gLe88C7m5MhEGvrseA1Q3gPC-_BdibvTXS-wGFQOhCFRV3u39gr_9-xREJXhUpAzV_IvCkx00m4ZzstUTz42DB3BciQL8X5d0C-NE',
+    coverUrl: '/images/cover-bone-dance.jpg',
     spotifyUrl: '#',
     bandcampUrl: '#',
     credits: 'Lyrics by: The Keeper',
@@ -54,7 +54,7 @@ const releases: Release[] = [
     title: 'Echoes',
     year: '2020',
     type: 'Single',
-    coverUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDy5Xz5zbmVDXCjuMNZIBK3Z0G7_tCEISO5E_NJAjnHomoNsiQVieZUfZBb2fqolz_xBjV8GJD_CAmRn4qwFfUtyy9lJIYDlcM-4CHKKUI9e18RaFxsFCsNCI8buUv9Fm_I66MOAvsaxN5-i8EjzxuUBlaCBrCupJZRsDwMfev394B4VIOZNgojKANUdXQ2-RSycrZlsVvtccIHT5Qgi2lETaitiyJyCc11ZANHI4myNF8Pr4D3gbfd9bDKCR2vgvgkTzLffEKJLYk',
+    coverUrl: '/images/cover-echoes.jpg',
     spotifyUrl: '#',
     bandcampUrl: '#',
     credits: 'A conceptual piece exploring the sound of isolation.',
@@ -70,7 +70,7 @@ const videos: Video[] = [
     title: 'Void Chant (Official Video)',
     year: '2023',
     type: 'Official Video',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCnP5na9sOu6yydayGYckCfczrTlaODlNpeJlZfXm59t1osNBXoYRr-cHdq1C3qxeLrWh8ZjRFBsV74P_3pvBqawYKvnZwpXysXJ_xLOp4AOKOHew4k4BshQuJ2w_y1gm2clU9XsrmNpu0ArHOKjMGHfhLhd4U83uU3U59Yh_VaLpQ8AyJSBcDbExT-rPemgSyv9aE4kvur4bUU1tQ6uyHXFRizrc_vywSRD7GSQxSm72p4JX01GuousIohhlCwrRUKIHiBQVyBglc',
+    thumbnailUrl: '/images/video-void-chant.jpg',
     description: 'Directed by A. Blackwood. Filmed on location in the Black Forest. A visual exploration of decay and rebirth.'
   },
   {
@@ -78,7 +78,7 @@ const videos: Video[] = [
     title: 'Mud Walk (Visualizer)',
     year: '2022',
     type: 'Visualizer',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC7i1s2roekRWm_rMQYVPriAHcn11cW9ohrEGoowlCuqL_rMw-YLOffNMsmM5UJzMDOfGaXVO3kca_Iy2BqSK0OkPkf4ekyHFi8-d_gRxt0BnHyP2BfJd1JQKjEdJn_Pv8iPfJ6FP-xCiTgdrdum6dCsuVezMStka8ALmBQ93bk7Syys7odMCjK2ethudFQkEKsdQ5vyAd3iFn8o71jWMAgmjcXzAK3L_eR9V673Vi-NsWyCSscHPTrCrJuFjOQcouYH0siv3WO3dw',
+    thumbnailUrl: '/images/video-mud-walk.jpg',
     description: 'Visualizer created using analog feedback loops and organic textures.'
   }
 ];
