@@ -111,7 +111,7 @@ const Home: React.FC = () => {
           <div className="relative mb-12 w-full max-w-[500px] aspect-square group">
              <div className="absolute inset-0 bg-primary/10 blur-3xl rounded-full opacity-20 group-hover:opacity-40 transition-opacity duration-700"></div>
              <img 
-               src="/images/reminiscence-cover.png" 
+               src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Album%20Cover.png" 
                alt="Reminiscence EP Cover" 
                width="1272" 
                height="1280" 
@@ -162,7 +162,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="/images/gallery-1.png"
+                src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 3" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="/images/gallery-2.png"
+                src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%203.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -178,7 +178,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 4" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="/images/gallery-3.png"
+                src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%204.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -186,7 +186,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 5" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                src="/images/gallery-4.png"
+                src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%205.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
