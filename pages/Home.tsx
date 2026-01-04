@@ -14,7 +14,9 @@ const Home: React.FC = () => {
           alt="photo" 
           width="6000" 
           height="3368" 
-          loading="lazy" 
+          loading="eager"
+          // @ts-ignore
+          fetchpriority="high"
           className="absolute inset-0 z-0 w-full h-full object-cover opacity-80"
         />
         <div className="absolute inset-0 z-10 bg-gradient-to-t from-background-dark via-background-dark/20 to-black/30"></div>
@@ -37,7 +39,7 @@ const Home: React.FC = () => {
                   alt="VENTRESS" 
                   width="1080" 
                   height="1080" 
-                  loading="lazy" 
+                  loading="eager"
                   className="relative z-10 w-full h-auto drop-shadow-2xl brightness-110 contrast-125"
                 />
                 
@@ -162,6 +164,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                loading="lazy"
                 src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
@@ -170,6 +173,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 3" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                loading="lazy"
                 src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%203.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
@@ -178,6 +182,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 4" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                loading="lazy"
                 src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%204.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
@@ -186,6 +191,7 @@ const Home: React.FC = () => {
               <img 
                 alt="Still 5" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                loading="lazy"
                 src="https://raw.githubusercontent.com/pearlstudio-git/Ventress/refs/heads/main/Still%205.PNG"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500"></div>
